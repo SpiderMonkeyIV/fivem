@@ -7,9 +7,9 @@ apiset: server
 ```c
 void DROP_PLAYER(char* playerSrc, char* reason);
 ```
-
+Kicks the player from the server (Server Sided)
 
 ## Parameters
-* **playerSrc**: 
-* **reason**: 
+* **playerSrc**: The ID of the player
+* **reason**: The reason they are being dropped
 
